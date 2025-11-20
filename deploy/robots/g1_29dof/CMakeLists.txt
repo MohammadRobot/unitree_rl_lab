@@ -10,9 +10,12 @@ include_directories(
   /usr/include/eigen3
   /usr/local/include/ddscxx # dds
   /usr/local/include/iceoryx/v2.0.2 # dds
+  /opt/unitree_robotics/include/ddscxx # dds
   include
   ${PROJECT_SOURCE_DIR}/../../thirdparty/onnxruntime-linux-x64-1.22.0/include
   ${PROJECT_SOURCE_DIR}/../../include/
+  /opt/unitree_robotics/include
+   ${CONDA_INCLUDE_DIR}  
 )
 
 link_libraries(
